@@ -71,7 +71,12 @@ if (conditionThree === true || conditionFour === true){
 
 
 // Write a JavaScript program that runs when both things are not true.  
+let conditionFive = false
+let conditionSix = false
 
+if (conditionFive !== true  || conditionSix !== true){
+  console.log("This message should only run if both conditions are not TRUE.  ")
+}
 // ***************************
 //         PART TWO
 // ***************************
