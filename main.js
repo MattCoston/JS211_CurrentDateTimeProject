@@ -26,6 +26,8 @@ console.log(Number(word));
 //TEST TEST TEST
 
 // Write a JavaScript program that takes in different datatypes and prints out whether they are a:
+
+
   // * Boolean
   // * Null
   // * Undefined
@@ -37,14 +39,35 @@ console.log(Number(word));
   
 // Write a JavaScript program that adds 2 numbers together.
 
+const adder = (num1, num2) => {
+  return num1 + num2
+}
+
+console.log(adder(7, 2))
 
 
 // Write a JavaScript program that runs only when 2 things are true.
+let conditionOne = true
+let conditionTwo = true
+
+if (conditionOne === true && conditionTwo === true){
+  console.log("This message will only run if both conditions are true. ")
+}
+  else
+{
+  console.log("This message will only run if one condition is NOT true. ")
+}
 
 
 
 // Write a JavaScript program that runs when 1 of 2 things are true.
 
+let conditionThree = true
+let conditionFour = false
+
+if (conditionThree === true || conditionFour === true){
+  console.log("This message will only run if EITHER/OR conditions are true. ")
+}
 
 
 // Write a JavaScript program that runs when both things are not true.  
