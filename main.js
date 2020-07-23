@@ -74,8 +74,8 @@ if (conditionThree === true || conditionFour === true){
 let conditionFive = false
 let conditionSix = false
 
-if (conditionFive !== true  || conditionSix !== true){
-  console.log("This message should only run if both conditions are not TRUE.  ")
+if (conditionFive === false  && conditionSix === false){
+  console.log("This message should only run if both conditions are NOT TRUE.  ")
 }
 // ***************************
 //         PART TWO
