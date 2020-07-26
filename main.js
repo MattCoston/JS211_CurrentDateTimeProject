@@ -23,7 +23,6 @@ console.log(numToString.toString());
 
 let word = "7";
 console.log(Number(word));
-//TEST TEST TEST
 
 // Write a JavaScript program that takes in different datatypes and prints out whether they are a:
 
