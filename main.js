@@ -26,14 +26,16 @@ console.log(Number(word));
 
 // Write a JavaScript program that takes in different datatypes and prints out whether they are a:
 
-
+const typeEval = (input) => {
+  console.log(typeof input)
+}
   // * Boolean
   // * Null
   // * Undefined
   // * Number
   // * NaN
   // * String
-  
+typeEval(3)
 
   
 // Write a JavaScript program that adds 2 numbers together.
