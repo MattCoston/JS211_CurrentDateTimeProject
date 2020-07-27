@@ -70,12 +70,22 @@ if (conditionThree === true || conditionFour === true){
 
 
 // Write a JavaScript program that runs when both things are not true.  
-let conditionFive = false
-let conditionSix = false
+const truthEval = (param1, param2) => {
 
-if (conditionFive === false  && conditionSix === false){
-  console.log("This message should only run if both conditions are NOT TRUE.  ")
+  if (param1 == false && param2 == false) {
+
+  console.log("Both parameters are false")
+
+} else {
+
+  console.log("One of the paramters is true")
+
 }
+}
+
+truthEval(false, false)
+
+
 // ***************************
 //         PART TWO
 // ***************************
