@@ -16,14 +16,21 @@ const displayDate = () => {
 
 // Write a JavaScript program to convert a number to a string.
 
-const numToString = 21;
-console.log(numToString.toString());
+
+
+const numToString  = (data) => {
+  console.log(data.toString())
+}
+
+numToString(9)
 
 // Write a JavaScript program to convert a string to the number.
 
-let word = "7";
-console.log(Number(word));
+const wordToNum = (data2) => {
+  console.log(Number(data2));
+}
 
+wordToNum("8")
 // Write a JavaScript program that takes in different datatypes and prints out whether they are a:
 
 const typeEval = (input) => {
@@ -36,6 +43,9 @@ const typeEval = (input) => {
   // * NaN
   // * String
 typeEval(3)
+typeEval(null)
+typeEval("Frank")
+
 
   
 // Write a JavaScript program that adds 2 numbers together.
@@ -51,6 +61,8 @@ console.log(adder(7, 2))
 let conditionOne = true
 let conditionTwo = true
 
+const bothTrue = (conditionOne, conditionTwo) => {
+
 if (conditionOne === true && conditionTwo === true){
   console.log("This message will only run if both conditions are true. ")
 }
@@ -58,7 +70,9 @@ if (conditionOne === true && conditionTwo === true){
 {
   console.log("This message will only run if one condition is NOT true. ")
 }
+}
 
+bothTrue(conditionOne, conditionTwo)
 
 
 // Write a JavaScript program that runs when 1 of 2 things are true.
@@ -66,11 +80,13 @@ if (conditionOne === true && conditionTwo === true){
 let conditionThree = true
 let conditionFour = false
 
+const eitherOr = (conditionThree, conditionFour) => {
 if (conditionThree === true || conditionFour === true){
   console.log("This message will only run if EITHER/OR conditions are true. ")
 }
+}
 
-
+eitherOr(conditionThree, conditionFour)
 // Write a JavaScript program that runs when both things are not true.  
 const truthEval = (param1, param2) => {
 
